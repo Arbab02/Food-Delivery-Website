@@ -1,0 +1,441 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    height: 6.5rem;
+    z-index: 20;
+}
+
+#logo {
+    margin: 10px 9px;
+
+}
+
+
+#logo img {
+    height: 7rem;
+    width: 9rem;
+    margin: 2px 9px 5px;
+
+
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 0.8rem;
+
+}
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 0.6rem;
+}
+
+#navbar ul li a {
+
+    text-decoration: none;
+    font-family: serif;
+    color: white;
+    display: block;
+    padding: 11px 12px;
+    border-radius: 3px;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/snack.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 200px;
+    font-family: serif;
+    height: 40rem;
+}
+
+
+
+#home h1 {
+    font-size: 60px;
+    color: white;
+    margin-top: 7rem;
+
+}
+
+#home p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    margin-top: -7rem;
+}
+
+#home button {
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+
+    margin-top: 20px;
+    border: 2px solid white;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 0px;
+    font-family: serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25rem;
+}
+
+#home button:hover {
+    font-size: 30px;
+    background-color: brown;
+    color: white;
+    margin-top: 20px;
+    border: 2px solid white;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 0px;
+    font-family: serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#search {
+    float: right;
+    color: white;
+    margin-top: 2px;
+    outline: none;
+}
+
+#navbar input {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 6.5rem;
+    margin-top: 19px;
+    padding: 2px 17px;
+    width: 13rem;
+    height: 40px;
+}
+
+#search-button {
+
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    width: 6.5rem;
+    height: 2.5rem;
+    margin-left: 6px;
+    margin-top: 1.3rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+}
+
+#navbar ul button:hover {
+
+    background-color: brown;
+    border: 2px solid white;
+    color: white;
+    width: 6.5rem;
+    height: 2.5rem;
+    margin-left: 6px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+}
+
+#about h1 {
+
+    text-align: center;
+    font-size: 6rem;
+    font-family: serif;
+}
+
+
+#Services {
+    background-color: #18191A;
+    color: white;
+}
+
+#Services h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: Serif;
+}
+
+img {
+    height: 32rem;
+    align-items: center;
+}
+
+#contact {
+
+    margin-top: 17rem;
+    background-color: #18191A;
+    height: 20rem
+}
+
+#contact h1 {
+
+    text-align: center;
+    margin-top: 22rem;
+    color: white;
+    font-family: serif;
+    font-size: 6rem;
+}
+
+#contact div {
+    height: 0.1rem;
+    background-color: white;
+    width: 92%;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    font-family: serif;
+}
+
+footer div{
+padding: 11px 0px 0px 0px;
+
+}
+.sub-menu-1 {
+    display: none;
+}
+
+#navbar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 26px;
+    margin-left: -15px;
+}
+
+#navbar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+#navbar ul li:hover .sub-menu-1 ul li {
+    text-align: left;
+    border-bottom: 1px dotted white;
+    padding: 10px;
+    width: 210px;
+}
+
+#clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -3rem;
+    font-family: serif;
+    font-size: 5rem;
+    width: 100%;
+}
+
+
+#clients h1 {
+
+    font-size: 4rem;
+    color: white;
+    margin-top: 3rem;
+    font-size: 6rem;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+#clients div {
+
+    height: 0.1rem;
+    background-color: white;
+    width: 100%;
+}
+
+#clients #micro {
+    margin-left: 4rem;
+    height: 4.5rem;
+}
+
+#clients #apple {
+    margin-bottom: 1rem;
+    height: 9rem;
+}
+
+#clients #meta {
+    margin-left: 3rem;
+    height: 9rem;
+    margin-bottom: -2rem;
+}
+
+#clients #adobe {
+    margin-left: 3rem;
+    margin-bottom: -2rem;
+    height: 9rem;
+}
+
+#clients::before {
+    content: "";
+    background-color: #18191A;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 4rem;
+}
+
+.icons {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 9rem;
+}
+
+#about {
+    height: 25rem;
+    background-color: #18191A;
+    color: white;
+    margin-top: -5rem;
+}
+
+#about p {
+    font-size: 2.5rem;
+    font-family: serif;
+    margin-left: 0.7rem
+}
+
+#burger{
+border: 2px solid white;
+border-radius: 5px;
+display: none;
+
+}
+.burger {
+    background-color: white;
+    width: 33px;
+    height: 3px;
+    margin: 4px 3px;
+    border-radius: 5px;
+   
+}
+
+
+footer div {
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+
+}
+
+@media only screen and (max-width: 1324px) {
+
+    #burger{
+        border: 2px solid white;
+        border-radius: 5px;
+        display: block;
+        position: absolute;
+        margin: 2rem 0px 0px 69rem;
+        
+        }
+        .burger {
+            background-color: white;
+            width: 43px;
+            height: 6px;
+            margin: 4px 3px;
+            border-radius: 2px;    
+           
+        }
+        
+    #navbar {
+        flex-direction: column;
+        height: 40rem;
+        text-align: center;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        margin: -22px 0px 0px 0rem;
+
+    }
+
+    #navbar ul li {
+        flex-direction: column;
+        margin: 0.7rem 0px 0px 0rem;
+        font-size: 30px;
+    }
+    
+
+    #search {
+        margin: -7px 0px 0px -5.8rem;
+    }
+
+    #searchbar {
+        text-align: center;
+        margin: -4px 0px 0px -7rem;
+    }
+
+#search-button{
+    margin-left: 3.8rem;
+}
+
+    .navbar-resp {
+        background-color: #18191A;
+    }
+
+    .ul-res {
+        display: none;
+    }
+
+    .search-res {
+        display: none;
+    }
+
+    .searchbar {
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,237 @@
+*{margin:0px;
+    padding:0px;
+        
+    }
+    
+    html{ scroll-behavior: smooth;
+        
+        
+    }
+    
+    
+    #navbar{ display: flex;
+    align-items: center;
+    position: fixed;		
+    background-color: red;
+    width: 100%;
+    height:6.5rem;
+    z-index: 20;	
+    }
+    
+    #logo{
+        margin: 10px 9px;
+        
+    }
+    
+    
+    #logo img{
+        height: 7rem;
+        width : 9rem;
+        margin: 2px 9px 5px;
+        
+        
+    }
+    
+    #navbar ul{ display: flex;
+        margin-left : 10rem;
+        margin-top: 0.8rem;
+        
+    }
+    
+    
+    #navbar ul li{ list-style: none;
+    font-size: 1.4rem;
+    margin: 0.6rem;
+    }
+    
+    #navbar ul li a{
+        
+        text-decoration: none;
+        font-family: serif;
+        color: white ;
+        display: block;
+        padding: 11px 12px;
+        border-radius: 3px;
+    }
+    
+    #navbar ul li a:hover{ background-color: white;
+    color:black;
+                
+    }
+     #home{ display: flex;
+    flex-direction: column;
+    background-image:url('images/snack.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 200px;
+    font-family: serif;
+    height: 67.3rem;
+    }
+    
+    #heading{ font-size: 60px;
+        color: white;
+        padding-top: 5.5rem;
+        font-size:6rem;
+        background-color:black;
+        width:84.3rem;
+        text-align:center;
+        border-bottom: 2px solid red;
+    }
+     
+    #home button{ font-size: 30px;
+        background-color: transparent ;
+        color: white;
+        
+        margin-top: 32px;
+        border: 2px solid white;
+        padding-right: 17px;
+        padding-left: 17px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        border-radius: 0px;
+        font-family: serif;
+        align-items:center;
+        justify-content: center;
+        margin-left: 33rem;
+    }
+    
+    #home button:hover{ 
+    font-size: 30px;
+        background-color:brown ;
+        color: white;
+        margin-top: 32px;
+        border: 2px solid white;
+        padding-right: 17px;
+        padding-left: 17px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        border-radius: 0px;
+        font-family: serif;
+        align-items:center;
+        justify-content: center;
+        margin-left: 33rem;
+    }
+    a{ text-decoration: none;	
+    }
+     #search{ 
+                float: right;
+                color: white;           
+                margin-top: 2px;
+                outline: none;
+            }
+              #navbar input{
+                border: none;
+                border-radius: 5px;
+                margin-left: 11rem;
+                margin-top: 19px;
+                padding: 2px 17px;
+                width: 14.5rem;
+                height:39px;		
+            }
+    #Our-Courses{
+    text-align: center;
+    font-size: 5rem;
+    font-family: Serif;
+    }		
+    #Courses{
+    background-color: #18191A;
+    color: white;
+    }
+    img{ 
+    height:32rem;
+    align-items: center;
+    }	
+    
+    footer{ display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+        margin-top: 0rem;
+        background-color: black;
+        color: white;
+        height: 4rem;	
+        font-family:serif;
+        }
+        
+    .sub-menu-1{
+    display:none;
+    }
+    #navbar ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background-color:red;
+    margin-top:26px;
+    margin-left:-15px;
+    }
+    #navbar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin:10px;
+    }
+    #navbar ul li:hover .sub-menu-1 ul li{
+    text-align:left;
+    border-bottom: 1px dotted white;
+    padding:10px;
+    width:210px;
+    }
+    #clients{
+        display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        position: absolute;
+        margin-top: -3rem;
+        font-family:serif;
+        font-size: 5rem;
+        width:100%;
+    }
+    
+    
+    #heading4{
+        
+        font-size: 4rem;
+            color: white;
+            margin-top: 3rem;
+                font-size: 6rem;x
+                text-align:center;
+                margin-left: 3rem;
+    }
+    
+    #clients #micro{
+        margin-left: 4rem;
+        height: 4.5rem;
+    }
+    
+    #clients #apple{
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+        height: 9rem;
+    }
+    
+    #clients #meta{
+        margin-left: 3rem;
+        height: 9rem;
+        margin-bottom: -2rem;
+    }
+    
+    #clients #adobe{
+        margin-left: 3rem;
+        margin-bottom: -2rem;
+        height: 9rem;
+    }
+    
+    #clients::before{
+         content: "";
+         background-color: #18191A;
+         height: 100%;
+        width:100%;
+         position: absolute;
+        z-index: -1;
+        margin-top: 4rem;
+    }
+    
+    .icons{ height:6rem;
+    width: 6rem;
+    margin-left: 9rem;
+    
+    }
